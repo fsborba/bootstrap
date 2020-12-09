@@ -1,10 +1,10 @@
 .img-banner{
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
 
 .logo{
-    width: 15px;
+    width: 150px;
 }
 
 .topmenu{
@@ -37,7 +37,7 @@ color: black;
     margin-left: -20px;
     margin-top: -130px;
     background-color: rgba(0, 0, 0, 0.555);
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 400;
     text-align: center;
     width: 100%;
@@ -56,6 +56,7 @@ color: black;
     padding-top: 3ch;
     padding-bottom: 3ch;
     margin-bottom: 2ch;
+    text-align: center;
     color: white;
     font-weight: 500;
     background: rgb(170, 28, 28);
