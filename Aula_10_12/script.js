@@ -8,7 +8,6 @@ if ((numero % 2) == 0) {
 
 var numero = 20;
 
-
 (numero % 2) == 0 ? console.log("Número par") : console.log("Número impar");
 
 var idade = 15;
@@ -116,4 +115,40 @@ if(mes == "janeiro" || mes == "fevereiro" || mes == "março"){
     console.log("Oba, Vinho e queijos!");
 }else if(mes == "outubro" || mes == "novembro" || mes == "dezembro"){
     console.log("Ha, as flores!!");
+}
+
+
+
+
+
+/*
+Aula de sábado = while / for = Estrutura de repetição
+*/
+
+var diaDaSemana = "Segunda-feira"
+
+diaDaSemana == "Domingo"
+? console.log("Hoje é dia de churrasco")
+: console.log("Hoje não é dia de churrasco :( ");
+
+var numero = 1;
+
+while(numero <= 3){
+    console.log("Olá Aluno " +numero);
+
+    numero = numero + 1;
+}
+
+var numero = 1;
+
+while(numero <= 100){
+    console.log("10 x "+numero+" = "+ 10*numero);
+    numero = numero + 1;
+}
+
+var numero = 100;
+
+while(numero >= 5){
+    console.log("10 x "+numero+" = "+ 10*numero);
+    numero = numero - 5;
 }
