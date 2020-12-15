@@ -152,3 +152,19 @@ while(numero >= 5){
     console.log("10 x "+numero+" = "+ 10*numero);
     numero = numero - 5;
 }
+
+for(var numero = 0; numero <= 10; numero++){
+    console.log("10 x "+numero+" = "+ 10*numero);
+}
+
+/*
+while(n = *2 %=0 )
+    console.log()
+
+
+for(var n = 100; n <= 200; n ++)
+if(n % 2 !=0){}
+    console.log("$(n) x "+n+" " = "+ 2*n")
+*/
+
+var r = 5;
