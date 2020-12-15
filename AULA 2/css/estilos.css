@@ -1,0 +1,150 @@
+.exemplo {   
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item{   
+    height: 150px;
+    width: 24%; 
+    display: inline-block;  
+}
+.primeiro{
+  background-color: cornflowerblue;
+}
+.segundo{  
+  background-color: darkcyan;
+}
+.terceiro{
+  background-color: darkkhaki;
+}
+.exemplo {
+list-style: none;
+color: #fff;    
+/*text-align: center; inline-block*/
+}
+
+.example-item {
+/*width: 25%;
+height: 150px;*/
+display: block;
+/*display: inline-block*/
+}
+
+.example-item_first {
+    /*border: solid 2px #FF0000;
+    /*margin: 10px;
+    padding: 10px ;
+    */
+    background-color: #FAA116;
+}
+
+.example-item_second {
+    background-color: #57C7C3;
+   /* margin-left: 40px; margin-left: 66.667%; margin-left: auto; Block*/
+}
+
+.example-item_third {
+    background-color: #3B97D3;
+    /*margin-left: auto;
+    margin-right: auto;* Block*/
+}
+#cabecalho1{
+    background-color: #c4daee;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#cabecalho2{
+    background-color: rgb(192, 255, 218);
+    margin-left: 150px;
+    margin-right: 150px
+}
+#erro{
+    background-color: teal;
+    font-weight: bold;
+    font-style: italic;
+    color: tomato;
+}
+
+#natus{
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+body{
+    background-color: #b8b8c6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-indent: 50px;
+    text-align:center;
+    line-height: 23px;
+}
+
+h1{
+    background-color:#b9b9c7;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+h2{
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+strong{
+    font-style: italic;
+    text-decoration-color: orangered;
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(78, 14, 226)
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+input{
+    background-color: tomato;
+
+}
+
+input:focus{
+    background-color: white;
+}
+
+#link1{
+    color: springgreen;
+}
+
+#link2{
+    color: rgb(192, 52, 37);
+}
+
+#link3{
+    color: snow;
+} 
+
+p.borda3 {
+    border: 1px solid #000;
+}

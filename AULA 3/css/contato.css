@@ -1,0 +1,50 @@
+body{
+    background-color: #b9b9c7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align:justify;
+    line-height: 23px;
+    margin-left: 30%;
+}
+
+h1{
+    background-color:#b9b9c7;
+    text-align: justify;
+    font-style: italic;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(78, 14, 226)
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+input{
+    background-color: rgb(214, 215, 224);
+}
+
+input:focus{
+    background-color: rgb(168, 26, 26);
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+#link2{
+    color: red;
+}
+
+#link3{
+    color: rgb(0, 255, 98)
+}

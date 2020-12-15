@@ -1,0 +1,84 @@
+body{
+background-color: #3a5694;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align:center;
+    line-height: 23px;
+    color: white;
+}
+
+.aws{
+    list-style: none;
+    text-align: center;
+}
+
+.exemplo {   
+    list-style: none;
+    color: white;
+    text-align: center;
+    /*text-align: center; inline-block*/
+}
+h1{
+    background-color:#3a5694;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+h2{
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+strong{
+    font-style: italic;
+    text-decoration-color: rgb(0, 255, 21);
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(78, 14, 226)
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+input{
+    background-color: tomato;
+
+}
+
+input:focus{
+    background-color: white;
+}
+
+#link1{
+    color: springgreen;
+}
+
+#link2{
+    color: rgb(192, 52, 37);
+}
+
+#link3{
+    color: snow;
+} 
+
+p.borda3 {
+    border: 1px solid #000;
+}

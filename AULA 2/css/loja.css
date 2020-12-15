@@ -1,0 +1,76 @@
+.barra{
+    background-color: #4365a5;
+    width: 960px;
+    height: 75px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: large;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 10px;
+    z-index: 1001;
+}
+
+.menu{
+    height: auto;
+    display: inline-block;
+    padding-right: 20px;
+    list-style: none;
+}
+
+body{
+    background-color: #d0d3d4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.img_produto{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.desconto{
+    position: fixed;
+    top: 200px;
+    left: 335px;
+    z-index: 999;
+}
+
+button{
+    position: fixed;
+    top: 390px;
+    left: 290px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-color: white;
+}
+
+
+.nome_produto{
+    position: absolute;
+    width: 114px;
+    margin-top: 120px;
+    margin-left: -161px;
+    text-align: center;
+    background-color: rgba(39, 36, 36, 0.39);
+    color: white;
+    z-index: 1999;
+}
+
+.zap{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 91;
+}

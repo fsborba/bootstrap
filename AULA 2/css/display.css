@@ -1,0 +1,29 @@
+.exemplo{
+  list-style: none;
+  color: rgb(172, 15, 15);    
+  text-align: center;
+  /*text-align: center; inline-block*/
+}
+
+.examplo{
+  list-style: none;
+  color: #ffffff;    
+  /*text-align: center; inline-block*/
+}
+.item{   
+    height: 150px;
+    width: 24%;
+}
+
+.primeiro{
+    background-color: rgb(42, 54, 122);
+}
+  .segundo{  
+    background-color: rgb(41, 194, 66);
+}
+  .terceiro{
+    background-color: rgb(209, 195, 68);
+}
+  .quarto{
+    background-color: rgb(173, 169, 124);
+}

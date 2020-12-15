@@ -1,0 +1,79 @@
+.bannertop{
+    background-color: #d4dbf5;
+    width: 960px;
+    height: 55px;
+    border-style: double;
+    border-color: blue;
+    position: fixed;
+    margin-left: 180px;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: large;
+    padding-top: 25px;
+    text-align: center;
+    z-index: 1000;
+}
+.body{
+    background-color: rgb(214, 213, 255);
+}
+
+a.{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: solid;
+}
+a:active{
+    color: rgb(250, 0, 0);
+}
+.logo{
+    position: absolute;
+    margin-left: -99px;
+    margin-top: -35px;
+    z-index: 1000;
+}
+.linha1{
+    display: inline-block;
+    position: static;
+    margin-top: 100px;
+    margin-left: 115px;
+    margin-right: 0px;
+    z-index: 0;
+}
+.produto{
+    width: 104px;
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 2px;
+    background-color: rgba(103, 176, 179, 0.726);
+    color: white;
+    z-index: 999;
+    position: fixed;
+    margin-top: -90px;
+    margin-left: 119px;
+}
+.leiamais{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.897);
+    color: white;
+    z-index: 999;
+}
+.desconto{
+    position: fixed;
+    margin-top: -220px;
+    margin-left: 285px;
+    z-index: 999;
+}
+.zap{
+    position: fixed;
+    bottom: 25px;
+    right: 5px;
+    z-index: 900;
+}

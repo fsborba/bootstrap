@@ -1,0 +1,54 @@
+.elemento {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+.div1{
+    background-color: blue;
+    float: right; 
+}
+.div2{
+    background-color: red;
+    float: right;
+}
+.elemento-article {
+    background-color: green;
+    overflow: hidden;
+}
+.paragrafo {
+    clear: left;
+}
+
+/*
+q.container{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.item1{
+    align-self: flex-end;
+   
+}
+
+   
+    flex-wrap: wrap;
+    justify-content: space-between; = centraliza com espaço entre eles
+    align-items: center; = alinha vertical = item
+    align-content: alinhamento em colunas - todo o conteúdo
+    flex-direction: row
+    */
