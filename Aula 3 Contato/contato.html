@@ -10,29 +10,43 @@
 
 <body>
     <h1>Formulário de Contato</h1>
-
-    <div>
-        <form action="endpoint" method="post">
-            <input type="Text" placeholder="NOME" required>
-            <input type="Text" placeholder="SOBRENOME" required >
-            <input type="email" placeholder="E-MAIL" required >
-            <input type="submit" value="ENVIAR">
+    <form>
+        <h3>Insira seus dados</h3>
+        <form action="" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
         </form>
-    </div>
-<br>
-    <div>
-        <input type="radio" label="Solteiro" required>
-        <input type="radio" label="Casado" required>
-    </div>
-<br>
-    <div>
-        <input type="checkbox" name="hobbies" value="Canto">
-        <input type="checkbox" name="hobbies" value="Corrida">
-        <input type="checkbox" name="hobbies" value="Música">
-        <input type="checkbox" name="hobbies" value="Surf">
-    </div>
+        <br>
 
-
+        <h3>Estado Civil</h3>
+        <form action="" method="post">
+            <label for="casado">Casado</label>
+            <input type="radio" name="Estado_Civil" value="Casado">
+            <label for="divorciado">Divorciado</label>
+            <input type="radio" name="Estado_Civil" value="Divorciado">
+            <label for="Solteiro">Solteiro</label>
+            <input type="radio" name="Estado_Civil" value="Solteiro">
+            <label for="viúvo">Viúvo</label>
+            <input type="radio" name="Estado_Civil" value="Viúvo">
+        </form>
+        <br>
+        <h3>Hobbies</h3>
+        <form action="" method="post">
+            <label for="canto">Canto</label>
+            <input type="checkbox" name="hobbies" value="Canto">
+            <label for="canto">Corrida</label>
+            <input type="checkbox" name="hobbies" value="Corrida">
+            <label for="canto">Música</label>
+            <input type="checkbox" name="hobbies" value="Música">
+            <label for="canto">Surf</label>
+            <input type="checkbox" name="hobbies" value="Surf">
+        </form>
+        <br>
+        <form action="" method="POST">
+            <button type="submit">ENTRAR</button>
+        </form>
 </body>
 
 </html>
