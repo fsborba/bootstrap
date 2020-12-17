@@ -16,6 +16,7 @@
             <input type="text" placeholder="Nome" id="nome" required>
             <input type="text" placeholder="e-mail" id="e-mail" required>
             <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
         </form>
         <h3>Escolha o Departamento:</h3>
         <select name="depto" id="depto">
@@ -39,8 +40,8 @@
         <h3>Download de manuais:</h3>
 
         <a id="link1" href="https://www.google.com" target="_blank">Manual 1 - Hardware</a> |
-        <a id="link2" href="https://www.google.com" target="_parent">Manual 2 - Software</a> |
-        <a id="link3" href="https://www.google.com" target="_top">Manual 3 - Banco de Dados</a>
+        <a id="link2" href="https://www.google.com" target="_blank">Manual 2 - Software</a> |
+        <a id="link3" href="https://www.google.com" target="_blank">Manual 3 - Banco de Dados</a>
 
 
         <h3>Formas de contato:</h3>
@@ -58,7 +59,11 @@
         <label for="comentários">
             <h3>Comentários</h3>
         </label>
-        <div><textarea name="comentarios" cols="80" rows="5" style="resize:none"></textarea></id>
+        <textarea name="comentarios" cols="80" rows="5" style="resize:vertical"></textarea>
+        <form action="comentários" method="POST">
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
+        </form>
 
 </body>
 

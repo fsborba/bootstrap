@@ -1,7 +1,7 @@
 body{
     background-color:#263238;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 14px;
     text-align:justify;
     line-height: 23px;
@@ -21,30 +21,28 @@ a{
     color: rgb(255, 255, 255)
 }
 
+input:focus{
+    background: rgb(168, 26, 26);
+}
+
+input:hover{
+    background: #9d9db6;
+}
+
 ::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a:focus{
+    color: rgb(28, 101, 104);
 }
 a:hover{
-    color: #ff040480;
+    color: #5eff00fd;
     text-decoration: underline;
 }
 
 a:active{
-    color: rgb(255, 255, 255);
-}
-
-input{
-    color: #ffff00;
-    background-color: #3c4352;
-}
-
-input:focus{
-    background-color: rgb(168, 26, 26);
-}
-
-input:hover{
-    background-color: #ffffff;
-    color: black;
+    color: rgb(204, 46, 46);
 }
 
 #link2{
