@@ -17,6 +17,9 @@ body {
         font-style: normal;
     }
     
+    .dados_pessoais{
+background-color: blue;
+    }
     mark {
         background-color: orange;
     }
