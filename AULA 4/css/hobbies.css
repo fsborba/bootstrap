@@ -1,4 +1,5 @@
 .header_A{
+display: block;
 margin-top: 100px;
 margin-left: 15%;
 width: 960px;
@@ -11,6 +12,7 @@ border: solid 13px #f3a10a;
 }
 
 .dadosB{
+display: inline-block;
 width: 300px;
 height: auto;
 text-align: justify;
