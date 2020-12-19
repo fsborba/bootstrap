@@ -1,15 +1,15 @@
 .header_A{
-margin-top: 20px;
+margin-top: 100px;
 margin-left: 15%;
 width: 960px;
 height: 90px;
 text-align: center;
-background: #dcdde0;
-color: rgb(0, 0, 0);
+background: #011550;
+color: rgb(255, 255, 255);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 border-style: solid;
 border-width: 13px;
-border-color: rgb(98, 98, 99);
+border-color: rgb(243, 161, 10);
 }
 
 .dadosB{
@@ -17,12 +17,12 @@ width: 300px;
 height: auto;
 text-align: justify;
 padding-left: 20px;
-background: #dcdde0;
+background: #8898c7;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-left: 15%;
 border-style: solid;
-border-width: 15px;
-border-color: rgb(98, 98, 99);
+border-width: 1px 13px 1px 13px;
+border-color: rgb(243, 161, 10);
 }
 
 footer{
@@ -30,14 +30,14 @@ footer{
     height: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color:rgb(0, 0, 0) ;
-    background: #dcdde0;
+    color:rgb(255, 255, 255) ;
+    background: #011550;;
     margin-left: 15%;
     border-style: solid;
-    border-width: 15px;
-    border-color: rgb(98, 98, 99);
+    border-width: 13px;
+    border-color: rgb(243, 161, 10);
 
 }
 body{
-    background: rgb(39, 37, 37);
+    background: rgb(33, 32, 34);
 }
