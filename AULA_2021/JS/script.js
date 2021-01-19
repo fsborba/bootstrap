@@ -21,7 +21,7 @@ if(numero1 == ''){
     return false; 
 }
 
-function calcular() {
+function calcular(){
     var numero1 = document.getElementById('num1').value;
     var numero2 = document.getElementById('num2').value;
     var operacao = document.getElementById('operacao').value;
@@ -29,7 +29,7 @@ function calcular() {
 
     numero1 = Number(numero1);
     numero2 = Number(numero2);
-
+}
     switch(operacao){
         case 'sub': resultado = numero1 - numero2;
         break;
@@ -40,13 +40,11 @@ function calcular() {
         case 'div':
             if(num2 == 0){
                 alert('Não divisível por 0')
-                return.false;
+                return false;
             } resultado =
-            break;
         default: alert ("escolha uma operação válida");
         return false;
 
-    alert(resultado);
 
     limparParcial();
     document.getElementById('resultado').value = resultado;

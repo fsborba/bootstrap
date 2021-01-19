@@ -1,3 +1,4 @@
+// CTRL+SHIFT+U
 function somar(numero1, numero2){
     
     var resultado = numero1 + numero2;
@@ -5,8 +6,6 @@ function somar(numero1, numero2){
     console.log("O resultado da soma é: "+resultado);
 
 }
-
-somar(10,20);
 
 function boasVindas(){
     alert("Seja bem-vindo, você pressionou o botão cinza");
@@ -19,7 +18,7 @@ function boasVindasLog(){
 function boasVindas(){
     alert("Seja bem-vindo, você pressionou o botão cinza");
 }
-*/
+
 function limparParcial(){
     document.getElementById('num1').value = "";
     document.getElementById('num2').value = "";
