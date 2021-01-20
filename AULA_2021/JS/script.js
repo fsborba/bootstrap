@@ -25,7 +25,7 @@ function calcular(){
     var numero1 = document.getElementById('num1').value;
     var numero2 = document.getElementById('num2').value;
     var operacao = document.getElementById('operacao').value;
-    vafunction envior resultado;
+    var function enviar resultado;
 
     numero1 = Number(nfunction envioumero1);
     numero2 = Number(numero2);
