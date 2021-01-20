@@ -25,9 +25,9 @@ function calcular(){
     var numero1 = document.getElementById('num1').value;
     var numero2 = document.getElementById('num2').value;
     var operacao = document.getElementById('operacao').value;
-    var resultado;
+    vafunction envior resultado;
 
-    numero1 = Number(numero1);
+    numero1 = Number(nfunction envioumero1);
     numero2 = Number(numero2);
 }
     switch(operacao){

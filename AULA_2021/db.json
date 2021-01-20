@@ -1,19 +1,16 @@
+
+
 {
-  "posts": [
+  "usuarios": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "nome": "Fernando",
+      "cidade": "São Paulo"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "nome": "Ian",
+      "cidade": "Ubaitaba"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
