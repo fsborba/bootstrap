@@ -7,17 +7,15 @@ function somar(numero1, numero2){
 
 }
 
-function boasVindas(){
-    alert("Seja bem-vindo, você pressionou o botão cinza");
+function boasVindas(acao){
+    alert("O evento foi " + acao );
 }
 
 function boasVindasLog(){
     console.log('O elemento ganhou o foco');
 }
 
-function boasVindas(){
-    alert("Seja bem-vindo, você pressionou o botão cinza");
-}
+
 
 function limparParcial(){
     document.getElementById('num1').value = "";
