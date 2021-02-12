@@ -12,7 +12,7 @@ console.log(`${dec} é um número decimal!`)
 var nome = 'Fernando e R$ 1.000,00'
 console.log(`${nome} são string!`)
 
-var dia = '11'
+var dia = 10
 if(dia != 10) {
 console.log('Hoje não é dia de din din :( ')
 } else {
@@ -32,11 +32,11 @@ console.log(nome, sobrenome); // retorna erro, pois, o sobrenome não está defi
 var texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 console.log(texto)
 
-var valorNulo = 'null'
-var naoDefinido = 'undefined'
-console.log(valorNulo + ' e ' + naoDefinido)
+var valorNulo = 'zero'
+var naoDefinido = 'x'
+console.log(valorNulo + ' e ' + naoDefinido + ' são valores nulo e indefinido, respectivamente.');
 
-var frutas = 'abacaxi, melão, uva, banana e melancia'
+var frutas = 'manga, pêra, banana e melancia'
 console.log('Estamos na estação de: ' + frutas + ', OBA!!')
 
 var digitalHouse = 'Digital House, a escola de programação que forma novas gerações de coders e profissionais digitais para imaginar, inovar e criar o que sempre sonharam!'
