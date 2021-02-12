@@ -1,5 +1,5 @@
 /*Algoritimo tabuáda com while*/
-var tab = 7;
+var tab = 5;
 var result = 0;
 var n = 0;
 
